@@ -2,18 +2,18 @@
 
 > This package is under development, so if you find any bug or need help, please go to the [github issues](https://github.com/leunamcrack/discord-dm/issues).<br>
 
-**discord-dm will help you manage DM's between users and your bot, just need your discord client and the ID of the category channel where the DM's channels will be created**
+`discord-dm will help you to manage DM's between users and your bot, just need your discord client and the category channel ID where the guild channels will be created`
 
 📕 Documentation: [Click here](https://leunamcrack.gitbook.io/discord-dm/)<br>
 📁 GitHub: [Click here](https://github.com/leunamcrack/discord-dm/)<br>
 🎫 Server support: [Click here](https://dsc.gg/snakeeworld)<br>
 
-### Installation
+#### Installation
 ```sh
 npm install discord-dm
 ```
 
-### Setup
+#### Setup
 ```js
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -30,8 +30,7 @@ client.on('ready' () => {
 //More info in the documntation page
 ```
 
-### 
-### Features
+#### Features
 - Send and receive DMs with your bot
 - You can edit or eliminate a DM
 - Support for external emojis
