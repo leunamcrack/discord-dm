@@ -4,8 +4,9 @@
 
 `discord-dm will help you to manage DM's between users and your bot, just need your discord client and the category channel ID where the guild channels will be created`
 
+🍏 Install: [Click here](https://www.npmjs.com/package/discord-dm)<br>
 📕 Documentation: [Click here](https://leunamcrack.gitbook.io/discord-dm/)<br>
-📁 GitHub: [Click here](https://github.com/leunamcrack/discord-dm/)<br>
+📁 GitHub: **You are already here**<br>
 🎫 Server support: [Click here](https://dsc.gg/snakeeworld)<br>
 
 #### Installation
