@@ -28,7 +28,7 @@ client.on('ready' () => {
   dm.start('123456789012345678');
 })
 
-//More info in the documntation page
+//More info in the documentation page
 ```
 
 #### Features
