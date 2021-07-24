@@ -133,7 +133,7 @@ class DiscordDm extends EventEmitter {
         let guild = this.client.channels.cache.get(category).guild;
         let newchannel = await guild.channels.create(message.author.tag, {parent: category});
         this.emit('createGuildChannel', newchannel, message.author);
-        let msg = await newchannel.send(message.content, {files: message.attachments.map(a => a.url)})
+        this._sendGuildMessage(message, newchannel.id, category);
         this.database.set(message.author.id, {
             channels: {dm: message.channel.id, guild: newchannel.id},
             messages: [{dm: message.id, guild: msg.id}]
