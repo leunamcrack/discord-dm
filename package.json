@@ -1,0 +1,32 @@
+{
+  "name": "discord-dm",
+  "version": "1.2.0",
+  "description": "This package allows you to manage DM's of your discord bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "events": "^3.3.0",
+    "megadb": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leunamcrack/discord-dm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leunamcrack/discord-dm/issues"
+  },
+  "homepage": "https://leunamcrack.gitbook.io/discord-dm/",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js",
+    "dm",
+    "discord-dm",
+    "discord",
+    "dm-manager"
+  ],
+  "author": "leunamcrack",
+  "license": "Apache-2.0"
+}
